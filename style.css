@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Bitcount+Grid+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Estilo para o titulo */
+
+h1 {
+    color: rgb(22, 159, 159);
+    text-align: center;
+    font-family: cursive;
+}
+/* Estilo para o paragrafo */
+p {
+    font-size: 16px; /* tamanho da fonte */
+    line-height: 1.5;
+    text-align: center;
+    font-family: cursive;
+}
+
 img {
-    width: 350px;
-    height:auto;
+   display: block; /* faz a imagem ocupar uma linha inteira */
+   margin: 20px auto;/*  centraliza a imagem orizontalmente*/
+   border-radius: 50%;/* deixa a imagem circular */
+    width: 300px;/* largura da imagem */
+    height: 350px;/* altura da imagem */
 }
