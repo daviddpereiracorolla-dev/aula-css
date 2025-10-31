@@ -1,3 +1,15 @@
+body {
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%);
+    /*  gradiente de fundo */
+display: flex;/* define um container flexivel */
+justify-content: center;/*centraliza o conteudo horizontalmente  */
+align-items: center;/* centraliza o conteudo verticalmente */
+height: 100vh; /*altura total da viewport  */
+}
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Bitcount+Grid+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* Estilo para o titulo */
 
@@ -6,18 +18,26 @@ h1 {
     text-align: center;
     font-family: cursive;
 }
+
 /* Estilo para o paragrafo */
 p {
-    font-size: 16px; /* tamanho da fonte */
+    font-size: 16px;
+    /* tamanho da fonte */
     line-height: 1.5;
     text-align: center;
     font-family: cursive;
 }
 
 img {
-   display: block; /* faz a imagem ocupar uma linha inteira */
-   margin: 20px auto;/*  centraliza a imagem orizontalmente*/
-   border-radius: 50%;/* deixa a imagem circular */
-    width: 300px;/* largura da imagem */
-    height: 350px;/* altura da imagem */
+    display: block;
+    /* faz a imagem ocupar uma linha inteira */
+    margin: 20px auto;
+    /*  centraliza a imagem orizontalmente*/
+    border-radius: 50%;
+    /* deixa a imagem circular */
+    width: 300px;
+    /* largura da imagem */
+    height: 350px;
+    /* altura da imagem */
+    border: 5px solid black; 
 }
